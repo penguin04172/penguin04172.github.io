@@ -11,6 +11,7 @@
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/penguin04172"
+weight = 1
 
 [social.params]
 icon = "brand-github"
@@ -19,6 +20,7 @@ icon = "brand-github"
 identifier = "facebook"
 name = "Facebook"
 url = "https://facebook.com/penguin04172"
+weight = 2
 
 [social.params]
 icon = "brand-facebook"
@@ -27,6 +29,16 @@ icon = "brand-facebook"
 identifier = "instagram"
 name = "Instagram"
 url = "https://instagram.com/penguin04172"
+weight = 3
 
 [social.params]
 icon = "brand-instagram"
+
+[[social]]
+identifier = "Mail"
+name = "Mail"
+url = "mailto:sylin4172@gmail.com"
+weight = 4
+
+[social.params]
+icon = "brand-gmail"
