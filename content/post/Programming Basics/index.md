@@ -1,6 +1,6 @@
 ---
 title: 程式語言與基礎理解
-description: 認識甚麼是程式
+description: 認識程式語言
 slug: "programming-basics"
 date: '2024-04-20'
 license: CC BY-NC-ND
