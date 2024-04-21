@@ -4,7 +4,7 @@ description: 認識程式語言
 slug: "programming-basics"
 date: '2024-04-20'
 license: CC BY-NC-ND
-lastmod: '2024-04-21'
+lastUpdated: '2024-04-21'
 categories:
     - Programming
 tags:

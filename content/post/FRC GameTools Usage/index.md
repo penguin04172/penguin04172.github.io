@@ -4,7 +4,7 @@ description: 如何更新roboRIO與OM5P-AC
 slug: "frc-gametools"
 date: '2024-04-20'
 license: CC BY-NC-ND
-lastmod: '2024-04-21'
+lastUpdated: '2024-04-21'
 categories:
     - FRC
 tags:
