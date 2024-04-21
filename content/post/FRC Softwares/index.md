@@ -2,7 +2,7 @@
 title: FRC 常用軟體
 description: 彙整FRC常用軟體的資料
 slug: "frc-software"
-date: '2024-04-20'
+date: '2022-04-28'
 license: CC BY-NC-ND
 lastmod: '2024-04-21'
 categories:
