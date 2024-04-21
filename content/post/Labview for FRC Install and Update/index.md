@@ -1,8 +1,8 @@
 ---
 title: Labview for FRC 安裝與更新
 description: 搞定Labview的複雜安裝
-slug: "labview-install"
-date: '2022-04-28'
+slug: "frc-labview-install"
+date: '2024-04-20'
 license: CC BY-NC-ND
 lastmod: '2024-04-21'
 categories:

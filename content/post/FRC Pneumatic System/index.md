@@ -2,7 +2,7 @@
 title: FRC 氣壓系統安裝
 description: 正確地將氣壓系統運用在比賽中
 slug: "frc-pneumatic"
-date: '2022-04-28'
+date: '2024-04-20'
 license: CC BY-NC-ND
 lastmod: '2024-04-21'
 categories:
