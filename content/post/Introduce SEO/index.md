@@ -2,9 +2,8 @@
 title: 認識 SEO (尚未完成)
 description: SEO的用途與解析
 slug: "introduce-seo"
-date: '2023-01-26'
-license: CC BY-NC-ND
-lastUpdated: '2024-04-21'
+date: 2023-01-26
+lastmod: 2024-04-23
 categories:
     - Web
 tags:
