@@ -2,7 +2,7 @@
 title: 程式語言與基礎理解
 description: 認識程式語言
 slug: "programming-basics"
-date: 2018-08-15
+date: 2019-08-15
 lastmod: 2024-04-21
 categories:
     - Programming
