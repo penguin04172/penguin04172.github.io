@@ -1,5 +1,5 @@
 ---
-title: "Introduce FRC Field Manage System (FMS)"
+title: "Field Manage System (FMS) of FRC"
 description: "FMS 系統架構簡介"
 slug: "frc-fms-introduction"
 date: 2024-05-14
@@ -51,6 +51,22 @@ PLC被用於場地上的設備操作，包括馬達或自動計分器，透過�
 ![Field Network](fms-whitepaper-0.png)
 
 ### VLan
+Field Router會切分Vlan將隊伍與場地的網路分離
+* Blue:  10, 20, 30
+* Red:   40, 50, 60
+* Field: 100
+Robot 所連結的Wifi 也會做出相同的切分，避免機器互相干擾
+
+### Addressing
+總共有7個DHCP Server，包括6個隊伍網路與1個場地網路
+
+### Network Bandwidth
+Robot radio將會被限制4Mb/s的頻寬<br>
+網路優先順序為DS, Network Tables, others
+
+## 總結
+以上部份我們可以進行仿照以及簡化，減少設備需求，並達到所需要的功能<br>
+下一篇將會介紹第三方的FMS
 
 ## 附錄
 ### 參考資料
