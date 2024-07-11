@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on 企鵝與他的鑿冰日誌</title><link>https://penguin04172.github.io/tags/tools/</link><description>Recent content in Tools on 企鵝與他的鑿冰日誌</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Penguin04172</copyright><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://penguin04172.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>FRC GameTool 使用</title><link>https://penguin04172.github.io/p/frc-gametools/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/frc-gametools/</guid><description>&lt;h2 id="說明">說明
+&lt;/h2>&lt;p>FRC競賽為了保證競賽的公平性與安全性，提供與規範了許多可以配合比賽使用的軟硬體，因此必須學習這些軟體的使用。&lt;/p>
+&lt;h2 id="設定-roborio">設定 roboRIO
+&lt;/h2>&lt;h3 id="步驟">步驟
+&lt;/h3>&lt;ol>
+&lt;li>使用 &lt;strong>USB線&lt;/strong>連接roboRIO&lt;/li>
+&lt;li>打開 roboRIO Imaging Tool&lt;/li>
+&lt;li>選擇 roboRIO主機
+&lt;img src="https://penguin04172.github.io/p/frc-gametools/roboRIO_imaging.png"
+width="823"
+height="824"
+srcset="https://penguin04172.github.io/p/frc-gametools/roboRIO_imaging_hu76a995dcd39f994e0e9ba72c9617ab66_266270_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-gametools/roboRIO_imaging_hu76a995dcd39f994e0e9ba72c9617ab66_266270_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="roboRIO Imaging"
+class="gallery-image"
+data-flex-grow="99"
+data-flex-basis="239px"
+>&lt;/li>
+&lt;/ol>
+&lt;h3 id="注意事項">注意事項
+&lt;/h3>&lt;ul>
+&lt;li>如果是全新或是舊賽季主機 &lt;strong>需要先更新韌體&lt;/strong>&lt;/li>
+&lt;li>roboRIO映像檔賽季開始後一樣會更新，需要注意官網以符合要求&lt;/li>
+&lt;li>開機選項通常&lt;strong>不用&lt;/strong>修改&lt;/li>
+&lt;/ul>
+&lt;h2 id="設定網路機om5p-ac">設定網路機(OM5P-AC)
+&lt;/h2>&lt;h3 id="步驟-1">步驟
+&lt;/h3>&lt;ol>
+&lt;li>關閉藍芽&lt;/li>
+&lt;li>進入&lt;strong>網路介面卡&lt;/strong>選項，將連結到網路機之外的網路卡停用，並&lt;strong>將網路介面卡名稱設定為英文&lt;/strong>。
+&lt;img src="https://penguin04172.github.io/p/frc-gametools/Network_interface.png"
+width="1501"
+height="203"
+srcset="https://penguin04172.github.io/p/frc-gametools/Network_interface_hubcdf76e8f091ce0fcb2060cc440f6b27_102665_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-gametools/Network_interface_hubcdf76e8f091ce0fcb2060cc440f6b27_102665_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Network Interface"
+class="gallery-image"
+data-flex-grow="739"
+data-flex-basis="1774px"
+>&lt;/li>
+&lt;li>打開 FRC Radio Configuration Utility&lt;/li>
+&lt;li>選擇以連線到網路機的介面卡
+&lt;ol>
+&lt;li>如果清單中沒有介面卡可以按 Refresh&lt;/li>
+&lt;li>好了就點 OK
+&lt;img src="https://penguin04172.github.io/p/frc-gametools/Select_interface.png"
+width="657"
+height="211"
+srcset="https://penguin04172.github.io/p/frc-gametools/Select_interface_huee6c64a2d2ee759a518933b98837f320_14267_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-gametools/Select_interface_huee6c64a2d2ee759a518933b98837f320_14267_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Select Interface"
+class="gallery-image"
+data-flex-grow="311"
+data-flex-basis="747px"
+>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>填寫 &lt;strong>隊伍編號&lt;/strong>、&lt;strong>機器人名稱(選填)&lt;/strong>、&lt;strong>網路密碼(選填)&lt;/strong>、&lt;strong>工作模式&lt;/strong>&lt;/li>
+&lt;li>若是新網路機或舊賽季(2020賽季以前)網路機&lt;strong>必須先更新韌體(Load Firmware)&lt;/strong>&lt;/li>
+&lt;li>若韌體已經是最新版本則直接套用設定(Configure)即可
+&lt;img src="https://penguin04172.github.io/p/frc-gametools/Radio_Configuration.png"
+width="910"
+height="718"
+srcset="https://penguin04172.github.io/p/frc-gametools/Radio_Configuration_hu95a065a35577c3ad77ccad46bbdae849_152904_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-gametools/Radio_Configuration_hu95a065a35577c3ad77ccad46bbdae849_152904_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Radio Configuration"
+class="gallery-image"
+data-flex-grow="126"
+data-flex-basis="304px"
+>&lt;/li>
+&lt;/ol>
+&lt;h2 id="附錄">附錄
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://docs.wpilib.org/en/stable/docs/getting-started/getting-started-frc-control-system/radio-programming.html" target="_blank" rel="noopener"
+>Programming your Radio&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://docs.wpilib.org/en/stable/docs/getting-started/getting-started-frc-control-system/imaging-your-roborio.html" target="_blank" rel="noopener"
+>Imaging your roboRIO&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>FRC 常用軟體</title><link>https://penguin04172.github.io/p/frc-software/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/frc-software/</guid><description/></item></channel></rss>

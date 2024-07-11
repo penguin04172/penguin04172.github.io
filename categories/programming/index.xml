@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on 企鵝與他的鑿冰日誌</title><link>https://penguin04172.github.io/categories/programming/</link><description>Recent content in Programming on 企鵝與他的鑿冰日誌</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Penguin04172</copyright><lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://penguin04172.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>LabVIEW 簡介</title><link>https://penguin04172.github.io/p/labview-basic/</link><pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/labview-basic/</guid><description>&lt;h2 id="簡介">簡介
+&lt;/h2>&lt;p>LabVIEW 全名為 &lt;strong>Lab&lt;/strong>oratory &lt;strong>V&lt;/strong>irtual &lt;strong>I&lt;/strong>nstrumentation &lt;strong>E&lt;/strong>ngineering &lt;strong>W&lt;/strong>orkbench, 實驗室虛擬儀器工程平台&lt;br>
+由NI (National Instrument, 國家儀器)所開發的程式語言&lt;br>
+早期是為了方便儀器自動控制所開發，擁有圖形化介面，容易上手&lt;br>
+透過資料流與方塊化模式進行程式撰寫&lt;br>
+LabVIEW的程式碼附檔名為VI，代表虛擬儀器(Virtual Instrument)&lt;/p>
+&lt;h2 id="labview的優缺點">Labview的優缺點
+&lt;/h2>&lt;h3 id="優點">優點
+&lt;/h3>&lt;ul>
+&lt;li>不用像一般寫程式時要熟悉語法，有提供圖形化函式庫方便查找&lt;/li>
+&lt;li>擁有大量的函式庫，包括數學、邏輯、圖形、資料的相關處理&lt;/li>
+&lt;li>編譯簡單，會自動帶入編譯器所需要的資料，不需要處理編譯上的問題&lt;/li>
+&lt;li>平行編程，由於透過資料流作為主結構，因此LabVIEW帶有排程演算法能夠自動將程式變為多執行續，不用煩惱多執行續的問題&lt;/li>
+&lt;/ul>
+&lt;h3 id="缺點">缺點
+&lt;/h3>&lt;ul>
+&lt;li>執行效率低落，不管程式大小都必須在RT環境中執行，導致整體效率被拖慢&lt;/li>
+&lt;li>圖形化，導致程式在複雜的時候沒辦法快速釐清順序&lt;/li>
+&lt;li>沒有變焦功能，方塊大小會受到解析度影響&lt;/li>
+&lt;li>專有軟體，社群較小且程式碼不受其他機構管控，語法上會有不同&lt;/li>
+&lt;/ul>
+&lt;h2 id="labview的特性">LabVIEW的特性
+&lt;/h2>&lt;h3 id="資料流">資料流
+&lt;/h3>&lt;p>透過資料的傳遞決定程式的執行順序，每個方塊都必須等待輸入準備完畢後才會執行並將結果輸出
+&lt;img src="https://penguin04172.github.io/p/labview-basic/Data_flow.png"
+width="865"
+height="318"
+srcset="https://penguin04172.github.io/p/labview-basic/Data_flow_huf65c0d0bacf677f20180a06481d767df_61052_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/labview-basic/Data_flow_huf65c0d0bacf677f20180a06481d767df_61052_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Data Flow"
+class="gallery-image"
+data-flex-grow="272"
+data-flex-basis="652px"
+>&lt;/p>
+&lt;h3 id="圖形化編程">圖形化編程
+&lt;/h3>&lt;ul>
+&lt;li>與Scratch(Blockly)有點類似，但原理上不一樣，前者是先將文字型語言的語法轉換為方塊再進行操作，因此還是需要先將方塊轉回程式碼再進行編譯&lt;/li>
+&lt;li>LabVIEW則是透過資料流操作，因此在結構上不會像Scratch有明確的順序
+&lt;img src="https://penguin04172.github.io/p/labview-basic/Graphics.png"
+width="748"
+height="623"
+srcset="https://penguin04172.github.io/p/labview-basic/Graphics_hu702363592ab9177e1978fe8ec18cfaba_138194_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/labview-basic/Graphics_hu702363592ab9177e1978fe8ec18cfaba_138194_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Graphics"
+class="gallery-image"
+data-flex-grow="120"
+data-flex-basis="288px"
+>&lt;/li>
+&lt;/ul>
+&lt;h3 id="圖形化介面">圖形化介面
+&lt;/h3>&lt;ul>
+&lt;li>每個LabVIEW程式碼會被稱為VI，包括前面板、程式、圖示&lt;/li>
+&lt;li>快捷鍵：ctrl+t將畫面分割為前面板與程式區各一半、ctrl+u自動整線、右鍵呼叫函式庫&lt;/li>
+&lt;/ul>
+&lt;h2 id="附錄">附錄
+&lt;/h2>&lt;h3 id="參考資料">參考資料
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/LabVIEW" target="_blank" rel="noopener"
+>Wikipedia - LabVIEW&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>程式語言與基礎理解</title><link>https://penguin04172.github.io/p/programming-basics/</link><pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/programming-basics/</guid><description>&lt;h2 id="程式的用途">程式的用途
+&lt;/h2>&lt;ul>
+&lt;li>透過電腦輔助計算有很多的用途，不論是商業、工業、教育、軍事或日常都有很多的應用可以透過電腦輔助。&lt;/li>
+&lt;li>但因為電腦本身並無法理解語言，只能透過電訊號傳遞資料，也就是所謂的機械碼。為了讓人們可以更方便去操作電腦，也就有了程式語言，可以幫助人們用熟悉的方式操作電腦。&lt;/li>
+&lt;li>因為電腦可以應用在很多領域，因此在不同的應用中會使用不同的語言。例如：
+&lt;ul>
+&lt;li>晶片系統中常會使用 C、C++&lt;/li>
+&lt;li>跨平台開發可以使用 JAVA、Python&lt;/li>
+&lt;li>商業應用較常出現 Cobol&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="程式語言的分類">程式語言的分類
+&lt;/h2>&lt;h3 id="高階或低階">高階或低階
+&lt;/h3>&lt;ul>
+&lt;li>高階語言與低階語言通常是用易讀性作為分類依據，越接近人類語言的程式語言通常也較高階&lt;/li>
+&lt;li>高階語言由於接近自然語言，因此在開發上較為容易。&lt;/li>
+&lt;li>低階語言則更接近機器語言，通常可以獲得更高的效率。
+&lt;img src="https://penguin04172.github.io/p/programming-basics/High_low.png"
+width="655"
+height="467"
+srcset="https://penguin04172.github.io/p/programming-basics/High_low_hu345d9f6d85857dc91693507b86ad422f_145660_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/programming-basics/High_low_hu345d9f6d85857dc91693507b86ad422f_145660_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="High or Low"
+class="gallery-image"
+data-flex-grow="140"
+data-flex-basis="336px"
+>&lt;/li>
+&lt;/ul>
+&lt;h3 id="直譯或編譯">直譯或編譯
+&lt;/h3>&lt;ul>
+&lt;li>編譯指的是將程式語言轉換為機器碼的過程。&lt;/li>
+&lt;li>編譯語言是先將程式&lt;strong>全部&lt;/strong>轉換為機器碼再執行。&lt;/li>
+&lt;li>直譯語言則是依照程式編寫的順序在執行的過程中編譯。&lt;/li>
+&lt;li>也有混和型的語言，例如：Java或C#可以先編譯一部分的程式為機器碼，加快執行的效率。
+&lt;img src="https://penguin04172.github.io/p/programming-basics/Compiled_interpreted.png"
+width="681"
+height="467"
+srcset="https://penguin04172.github.io/p/programming-basics/Compiled_interpreted_hu3d72412380d9b0a819baaa678667e050_80283_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/programming-basics/Compiled_interpreted_hu3d72412380d9b0a819baaa678667e050_80283_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Compiled or Interpreted"
+class="gallery-image"
+data-flex-grow="145"
+data-flex-basis="349px"
+>&lt;/li>
+&lt;/ul>
+&lt;h2 id="程式語言的開發環境">程式語言的開發環境
+&lt;/h2>&lt;h3 id="編輯器-編譯器">編輯器? 編譯器?
+&lt;/h3>&lt;ul>
+&lt;li>編輯器(Editor)是撰寫程式的工具，不包含將程式語言轉換為機器碼的功能。
+&lt;ul>
+&lt;li>常用的編輯器包括：VSCode、Vim、Notepad 等&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>編譯器(Compiler)是將程式語言轉換為機器碼給電腦執行的工具，不同的程式語言就會使用不同的編譯器。
+&lt;ul>
+&lt;li>C與C++ 使用 gcc/g++、Java 使用 JDK&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="整合式開發環境-ide">整合式開發環境 (IDE)
+&lt;/h3>&lt;p>整合式開發環境(IDE, Integrated Development Environment)，會整合好編輯器與編譯器的功能，甚至可以針對機器碼進行除錯工作。&lt;/p>
+&lt;h2 id="程式的運作流程">程式的運作流程
+&lt;/h2>&lt;p>一段程式通常會需要經過以下的流程才能執行(以C為例)&lt;/p>
+&lt;ol>
+&lt;li>預先處理&lt;/li>
+&lt;li>編譯&lt;/li>
+&lt;li>組譯&lt;/li>
+&lt;li>連結&lt;/li>
+&lt;li>輸出執行檔&lt;/li>
+&lt;/ol>
+&lt;p>不同的程式語言需要經過的流程不同，但原理大同小異。&lt;/p></description></item></channel></rss>

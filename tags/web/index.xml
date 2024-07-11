@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on 企鵝與他的鑿冰日誌</title><link>https://penguin04172.github.io/tags/web/</link><description>Recent content in Web on 企鵝與他的鑿冰日誌</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Penguin04172</copyright><lastBuildDate>Thu, 26 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://penguin04172.github.io/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>認識 SEO</title><link>https://penguin04172.github.io/p/introduce-seo/</link><pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/introduce-seo/</guid><description>&lt;h2 id="seo">SEO
+&lt;/h2>&lt;h3 id="seo是什麼">SEO是什麼?
+&lt;/h3>&lt;ul>
+&lt;li>SEO, Search Engine Optimization, 最佳化搜尋引擎&lt;/li>
+&lt;li>透過自然排序增加網站能見度的行銷方式&lt;/li>
+&lt;li>長時間對網站的經營與改善，使搜尋引擎願意把網站主動推薦到搜尋頁面的頂端排名位置，增加網站能見度。
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/SEO.png"
+width="2870"
+height="1563"
+srcset="https://penguin04172.github.io/p/introduce-seo/SEO_hubc780314e82fcd3515dabda9f4165fa3_1590471_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/SEO_hubc780314e82fcd3515dabda9f4165fa3_1590471_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SEO"
+class="gallery-image"
+data-flex-grow="183"
+data-flex-basis="440px"
+>&lt;/li>
+&lt;/ul>
+&lt;h3 id="為什麼需要seo">為什麼需要SEO?
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>網站流量來自很多地方，主要有以下三種：&lt;/p>
+&lt;ol>
+&lt;li>搜尋引擎： Google, Yahoo, Bing&lt;/li>
+&lt;li>社群媒體： FaceBook, Instagram, Twitter&lt;/li>
+&lt;li>其他： 書籤列, 網址, EDM
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/SEO_source.png"
+width="1735"
+height="586"
+srcset="https://penguin04172.github.io/p/introduce-seo/SEO_source_hu5ee3b14ca01b137c60eeb9ab5cd96d70_23549_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/SEO_source_hu5ee3b14ca01b137c60eeb9ab5cd96d70_23549_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SEO Source"
+class="gallery-image"
+data-flex-grow="296"
+data-flex-basis="710px"
+>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>使用網路時，不論要做什麼，最常做的動作就是打開瀏覽器，搜尋關鍵字&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>而在找東西時，通常就會依照搜尋結果點選前幾項，可能就會獲得答案，也停止瀏覽其他網站&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>因此就這樣的行為我們可以得知：
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/SEO_principle.png"
+width="2027"
+height="505"
+srcset="https://penguin04172.github.io/p/introduce-seo/SEO_principle_hu2c6a0307ca3ec4f5675d1ddde815d413_31256_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/SEO_principle_hu2c6a0307ca3ec4f5675d1ddde815d413_31256_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SEO principle"
+class="gallery-image"
+data-flex-grow="401"
+data-flex-basis="963px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>所以同理，排名越前面就可以獲得更多點閱如同黃金店面
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/SEO_example.png"
+width="3114"
+height="1563"
+srcset="https://penguin04172.github.io/p/introduce-seo/SEO_example_hu065a43d3545f5c075aaab364594319c5_1612102_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/SEO_example_hu065a43d3545f5c075aaab364594319c5_1612102_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SEO example"
+class="gallery-image"
+data-flex-grow="199"
+data-flex-basis="478px"
+>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="搜尋引擎">搜尋引擎
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>搜尋引擎運作原理如下：&lt;/p>
+&lt;ol>
+&lt;li>檢索，透過自動化程式抓取網路上的網站與內容&lt;/li>
+&lt;li>索引，分析網頁內容並將資料儲存在資料庫中&lt;/li>
+&lt;li>結果，根據輸入的關鍵字提供最符合的網頁
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/SEO_step.png"
+width="3310"
+height="1956"
+srcset="https://penguin04172.github.io/p/introduce-seo/SEO_step_hubf3462f6d6f9b86c9b2d0a5614d8f5b1_192012_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/SEO_step_hubf3462f6d6f9b86c9b2d0a5614d8f5b1_192012_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SEO step"
+class="gallery-image"
+data-flex-grow="169"
+data-flex-basis="406px"
+>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>由原理可以得知：&lt;/p>
+&lt;ul>
+&lt;li>SEO的領域包含非常多層面，小至網站內容大至使用者體驗，甚至是網站架構等&lt;/li>
+&lt;li>依據知名SEO專業網站 Search Engine Land 在2021年更新的SEO元素週期表，大致可以分類如下：
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/SEO_content.png"
+width="2291"
+height="591"
+srcset="https://penguin04172.github.io/p/introduce-seo/SEO_content_hu6bc7eb95622c1ba38c160fdd469ce627_23622_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/SEO_content_hu6bc7eb95622c1ba38c160fdd469ce627_23622_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SEO Content"
+class="gallery-image"
+data-flex-grow="387"
+data-flex-basis="930px"
+>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="2021-seo-元素週期表">2021 SEO 元素週期表
+&lt;/h2>&lt;p>&lt;img src="https://penguin04172.github.io/p/introduce-seo/SEO_periodic_table.png"
+width="898"
+height="526"
+srcset="https://penguin04172.github.io/p/introduce-seo/SEO_periodic_table_huf383f0371946e67d847af6d429bf7d6b_438691_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/SEO_periodic_table_huf383f0371946e67d847af6d429bf7d6b_438691_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SEO Periodic Table"
+class="gallery-image"
+data-flex-grow="170"
+data-flex-basis="409px"
+>&lt;/p>
+&lt;h3 id="內容摘要">內容摘要
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>內容品質與深度&lt;/p>
+&lt;ul>
+&lt;li>內容是否有價值、架構完整、文筆流暢無誤&lt;/li>
+&lt;li>專注於使用者優先的內容，理想狀況是使用者可以在網站輕鬆找到內容&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>內容/關鍵字研究&lt;/p>
+&lt;ul>
+&lt;li>了解使用者搜尋時使用的關鍵字與內容&lt;/li>
+&lt;li>若使用者不會使用該關鍵字搜尋，在搜尋結果業也不會有比較好的排名&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>解答&lt;/p>
+&lt;ul>
+&lt;li>指的是解答使用者的問題&lt;/li>
+&lt;li>除了提供答案，結構也要明確，讓使用者可以一目了然的找到答案&lt;/li>
+&lt;li>好的設計可以增加被列入&lt;strong>精選摘要(Featured Snipped)&lt;/strong> 的機會
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/Featured_snipped.png"
+width="2456"
+height="831"
+srcset="https://penguin04172.github.io/p/introduce-seo/Featured_snipped_hu4a28efb197c5b0d01155a15d4a0f7b61_478029_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/Featured_snipped_hu4a28efb197c5b0d01155a15d4a0f7b61_478029_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Featured Snipped"
+class="gallery-image"
+data-flex-grow="295"
+data-flex-basis="709px"
+>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>將關鍵字部屬在重要區域&lt;/p>
+&lt;ul>
+&lt;li>在頁面的重要標籤(H1、H2、title)部屬重要的關鍵字&lt;/li>
+&lt;li>不要濫用關鍵字或諞植於關鍵字密度，以內容品質為優先
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/Keyword_tag.png"
+width="3514"
+height="1584"
+srcset="https://penguin04172.github.io/p/introduce-seo/Keyword_tag_hu2c2d89d9f58bf4d9ebfead0b28cc8114_2673783_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/Keyword_tag_hu2c2d89d9f58bf4d9ebfead0b28cc8114_2673783_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Keyword tag"
+class="gallery-image"
+data-flex-grow="221"
+data-flex-basis="532px"
+>&lt;/li>
+&lt;li>來源： &lt;a class="link" href="https://awoo.ai/zh-hant/blog/h-tag/" target="_blank" rel="noopener"
+>如何透過H標籤做好網站SEO？H標籤重要性介紹&lt;/a>&lt;/li>
+&lt;li>來源： &lt;a class="link" href="https://www.seo-panda.tw/seo-h1-h2-h3-headings-202112/" target="_blank" rel="noopener"
+>SEO H1 H2 H3 是什麼？如何用 Headings 標籤架構文章內容？教學&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="網站架構摘要">網站架構摘要
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>搜尋引擎爬蟲是否可以抓取網站資料&lt;/p>
+&lt;ul>
+&lt;li>不要讓爬蟲無法抓取網站內容或封鎖CSS、JS等造成無法正常讀取網站的方式&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>行動裝置優先&lt;/p>
+&lt;ul>
+&lt;li>以往強調友善的行動裝置體驗，但2021年起轉為行動裝置優先&lt;/li>
+&lt;li>規劃網站內容與架構需要考慮是否能讓Google Mobile Bot正常讀取網站&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>體驗一致性&lt;/p>
+&lt;ul>
+&lt;li>桌面與手機版本盡量體驗一致，重要內容兩種版本都要顯示，以應對行動優先索引&lt;/li>
+&lt;li>若內容只有桌面版則會被搜尋引擎忽略&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>重複性內容&lt;/p>
+&lt;ul>
+&lt;li>盡量避免重複性頁面，可以利用Google的網站管理員工具判斷&lt;/li>
+&lt;li>可以利用標準網址(Canonical Tag)或301轉址解決&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>網站速度&lt;/p>
+&lt;ul>
+&lt;li>排名要素之一，可以用Page Speed Insight、WebPage Test 等工具檢查&lt;/li>
+&lt;li>網站速度快有助於提升使用者體驗&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="html摘要">HTML摘要
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>網頁標題&lt;/p>
+&lt;ul>
+&lt;li>呈現在搜尋結果頁的標題是最重要的HTML要素&lt;/li>
+&lt;li>文案與網頁內容若太長或無關，搜尋引擎便可能採用更好的文案呈現在結果頁，而不是根據網頁的設定&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>結構化資料&lt;/p>
+&lt;ul>
+&lt;li>利用結構化資料與複合資訊卡(Rich Snippet)優化搜尋結果頁呈現內容
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/HTML_summary.png"
+width="3773"
+height="1209"
+srcset="https://penguin04172.github.io/p/introduce-seo/HTML_summary_hua939057a0c0f1c199074330b4650d7ce_1424991_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/HTML_summary_hua939057a0c0f1c199074330b4650d7ce_1424991_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="HTML Summary"
+class="gallery-image"
+data-flex-grow="312"
+data-flex-basis="748px"
+>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="負面要素">負面要素
+&lt;/h3>&lt;ul>
+&lt;li>障眼法/隱藏文字
+&lt;ul>
+&lt;li>不要利用障眼法讓搜尋引擎得到的版本與使用者不同&lt;/li>
+&lt;li>最簡單的例子就是把css或js隱藏，但爬蟲可以取得&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="電子商務">電子商務
+&lt;/h3>&lt;ul>
+&lt;li>網頁描述
+&lt;ul>
+&lt;li>要好好寫商品描述，因為搜尋引擎無法辨識圖片中的文字&lt;/li>
+&lt;li>重點商品描述要輸入文字，不要全部放在圖片中&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>此點也適用一般網站，能使用文字就不要用圖片省略，或是將文字放入alt中，可以讓爬蟲獲得圖片資訊&lt;/p>
+&lt;h2 id="最基本的網站seo">最基本的網站SEO
+&lt;/h2>&lt;ul>
+&lt;li>網站Head中的Meta與TKD
+&lt;ul>
+&lt;li>Head中會設定很多Meta安插內容，可以為SEO或社群媒體行銷帶來加分的項目&lt;/li>
+&lt;li>TKD是SEO中最重要的部分，代表網站中的
+&lt;ul>
+&lt;li>Title (標題)&lt;/li>
+&lt;li>Keywords (關鍵字)&lt;/li>
+&lt;li>Description (描述)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="tkd與網頁圖示">TKD與網頁圖示
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>Description&lt;/p>
+&lt;ul>
+&lt;li>必填，限制3~5個內容相關關鍵字&lt;/li>
+&lt;li>建議把網站內容精華濃縮在這&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Keywords&lt;/p>
+&lt;ul>
+&lt;li>限制3~5個內容相關關鍵字&lt;/li>
+&lt;li>Google不列入SEO計分，其他搜尋引擎不一定&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Icon&lt;/p>
+&lt;ul>
+&lt;li>會出現在標題前方&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Title&lt;/p>
+&lt;ul>
+&lt;li>會出現在分頁上&lt;/li>
+&lt;li>長度中文9~30，英文&amp;lt;=60&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="meta設定---og-tag">Meta設定 - OG tag
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>全名 Open Graph Protocol，翻譯為 &amp;ldquo;開放社交關係圖&amp;rdquo;，由 Facebook在2010年推出&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>OG的目標是讓網頁在社交關係圖可以豐富的呈現，讓我們在社群網站上分享時不只用網址呈現，而是用比較漂亮吸引人的方式呈現&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>og:url，網頁的標準網址&lt;/p>
+&lt;ul>
+&lt;li>使用絕對路徑&lt;/li>
+&lt;li>等同網頁在社交關係圖中的ID&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>og:title，標題&lt;/p>
+&lt;ul>
+&lt;li>網頁分享時的標題文字&lt;/li>
+&lt;li>通常與title相同&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>og:description，描述&lt;/p>
+&lt;ul>
+&lt;li>網頁分享時的描述文字&lt;/li>
+&lt;li>通常與description相同&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>og:site_name，名稱&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>og:image，縮圖&lt;/p>
+&lt;ul>
+&lt;li>網頁分享時的縮圖&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>og:type，內容的媒體類型&lt;/p>
+&lt;ul>
+&lt;li>網頁固定使用 website
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/og_tag.png"
+width="372"
+height="519"
+srcset="https://penguin04172.github.io/p/introduce-seo/og_tag_hub4c4db8377fe2288e539075e6a423e65_63491_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/introduce-seo/og_tag_hub4c4db8377fe2288e539075e6a423e65_63491_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="OG Tag"
+class="gallery-image"
+data-flex-grow="71"
+data-flex-basis="172px"
+>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="網站內容與關鍵字">網站內容與關鍵字
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>網頁文字內容與關鍵字安排&lt;/p>
+&lt;ul>
+&lt;li>內容可以適時安插關鍵字&lt;/li>
+&lt;li>不要為了SEO大量安插關鍵字&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>尋找SEO關鍵字的方法&lt;/p>
+&lt;ul>
+&lt;li>SEO的首要任務是提出 &lt;strong>種子關鍵字&lt;/strong>&lt;/li>
+&lt;li>可以參考Google建議，在搜尋欄中輸入種子關鍵字，能夠得到最多人搜尋的關鍵字&lt;/li>
+&lt;li>透過關鍵字與不同文字的組合拓展更多的訊息&lt;/li>
+&lt;li>除了搜尋欄也可以參考結果提示詞&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="避免重複內容">避免重複內容
+&lt;/h3>&lt;ul>
+&lt;li>內容是否大量重複，或是有沒有多個幾乎相同的網頁&lt;/li>
+&lt;li>重複內容的定義
+&lt;ul>
+&lt;li>重複的內容&lt;/li>
+&lt;li>多個不同網址，但內容相同的網頁&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>重複內容的類型
+&lt;ul>
+&lt;li>爬蟲使用網址判斷，只要網址不同即視為不同的網頁
+&lt;img src="https://penguin04172.github.io/p/introduce-seo/Repeat_content.jpg"
+width="566"
+height="292"
+srcset="https://penguin04172.github.io/p/introduce-seo/Repeat_content_hu03601277a1c3eda53414b8a6e6454a5c_26581_480x0_resize_q75_box.jpg 480w, https://penguin04172.github.io/p/introduce-seo/Repeat_content_hu03601277a1c3eda53414b8a6e6454a5c_26581_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Repeat Content"
+class="gallery-image"
+data-flex-grow="193"
+data-flex-basis="465px"
+>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="重複內容產生的問題">重複內容產生的問題
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>權重分散&lt;/p>
+&lt;ul>
+&lt;li>若今天有三個網頁有相同內容，內容成因可能是版本不同或參數問題，Google不會懲罰，但只會給一頁排名&lt;/li>
+&lt;li>SEO有所謂的 &lt;strong>網頁權重&lt;/strong> 存在，權重越高對SEO越有幫助&lt;/li>
+&lt;li>使用者傳播、分享網頁時可以提高網頁的權重&lt;/li>
+&lt;li>因此有多個相同內容的網頁，會使傳播時無法控制版本，導致提高的權重被分散&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>影響爬蟲爬取網頁&lt;/p>
+&lt;ul>
+&lt;li>若爬蟲在爬取網頁時過於沒效率會對SEO有影響&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://penguin04172.github.io/p/introduce-seo/Repeat_influence.jpg"
+width="430"
+height="214"
+srcset="https://penguin04172.github.io/p/introduce-seo/Repeat_influence_hu84e9ce2450c7d52f1f1955b9643d38bf_17420_480x0_resize_q75_box.jpg 480w, https://penguin04172.github.io/p/introduce-seo/Repeat_influence_hu84e9ce2450c7d52f1f1955b9643d38bf_17420_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Repeat Content Influence"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="482px"
+>&lt;/p>
+&lt;h3 id="轉址舊網站">轉址舊網站
+&lt;/h3>&lt;ul>
+&lt;li>假若今天不會使用到舊的網頁，善用轉址將舊網站跳轉到新網站&lt;/li>
+&lt;li>除了讓使用者不會停留在舊介面，也讓爬蟲把累計的分數與權重轉移到新網站&lt;/li>
+&lt;li>轉址類型
+&lt;ul>
+&lt;li>301，永久轉址&lt;/li>
+&lt;li>302，暫時轉址&lt;/li>
+&lt;li>遮蔽轉址&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>避免網路出現重複內容降低SEO成效時通常使用 &lt;strong>301&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="圖片加上alt屬性">圖片加上alt屬性
+&lt;/h3>&lt;ul>
+&lt;li>幫助爬蟲識別圖片內容&lt;/li>
+&lt;li>近期開始注重無障礙網頁，加上alt屬性加強電腦輔助工具&lt;/li>
+&lt;li>alt的目的
+&lt;ul>
+&lt;li>圖片失效時使用文字替代&lt;/li>
+&lt;li>輔助視障者運用電腦輔助工具理解圖片內容&lt;/li>
+&lt;li>輔助爬蟲理解圖片內容&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="附錄">附錄
+&lt;/h2>&lt;h3 id="參考資料">參考資料
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.newscan.com.tw/all-seo/seo-guide.htm" target="_blank" rel="noopener"
+>SEO教學 - SEO初學者指南&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.wpandseo.tw/3212/seo-periodic-table-2021-content-architecture-html/" target="_blank" rel="noopener"
+>2021年SEO元素週期表&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=zh-Hant&amp;amp;visit_id=638073702456484716-4074403719&amp;amp;rd=1" target="_blank" rel="noopener"
+>google官方文件&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.ibest.com.tw/news-detail/How-to-write-SEO-TDK/" target="_blank" rel="noopener"
+>如何撰寫SEO Title和Description (網頁TDK)？SEO優化的秘訣?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ithelp.ithome.com.tw/articles/10278469" target="_blank" rel="noopener"
+>#21 No-code 之旅 — 如何讓網站在分享時看起來漂亮和有吸引力？Open Graph (OG) 簡介&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ryzo.io/open-graph-for-campaign-page/" target="_blank" rel="noopener"
+>Open Graph 是什麼？在活動網頁設定不同 OG，讓分享時更吸睛！&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://tzuhsiang.com/website-seo/facebookog-tag-seo/" target="_blank" rel="noopener"
+>如何快速設定Facebook的OG Tag | 網站SEO優化&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.ibest.tw/seo-detail/keywords-research/" target="_blank" rel="noopener"
+>第六章：SEO關鍵字排名研究-如何找到有效高流量SEO關鍵字？&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.yesharris.com/seo-basic/content-duplicate-issue/" target="_blank" rel="noopener"
+>認識SEO排名的殺手，『重複內容』超完整攻略&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://welly.tw/serp-rank-optimization/301-and-302-redirection-guide-for-seo" target="_blank" rel="noopener"
+>10大轉址服務推薦！教你正確網頁轉址顧好SEO！&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://welly.tw/serp-rank-optimization/what-is-img-alt" target="_blank" rel="noopener"
+>Img Alt是什麼？好的替代文字怎麼寫？SEO專家教你7秘訣！&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pneumatic on 企鵝與他的鑿冰日誌</title><link>https://penguin04172.github.io/tags/pneumatic/</link><description>Recent content in Pneumatic on 企鵝與他的鑿冰日誌</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Penguin04172</copyright><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://penguin04172.github.io/tags/pneumatic/index.xml" rel="self" type="application/rss+xml"/><item><title>FRC 氣壓系統安裝</title><link>https://penguin04172.github.io/p/frc-pneumatic/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/frc-pneumatic/</guid><description>&lt;h2 id="說明">說明
+&lt;/h2>&lt;p>FRC與其他機器人競賽有一項差異就是可以使用氣壓作為動力輸出。&lt;br>但是氣壓在使用上若沒有正確操作會造成危險，所以需要特別進行規範。&lt;/p>
+&lt;h2 id="氣壓系統組成">氣壓系統組成
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>中文名稱&lt;/th>
+&lt;th>英文名稱&lt;/th>
+&lt;th>必須&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>空氣壓縮機&lt;/td>
+&lt;td>Compressor&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>氣體儲存瓶&lt;/td>
+&lt;td>Air Tank(Reservoir)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>壓力釋放閥&lt;/td>
+&lt;td>Pressure Relief Valve&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>排氣塞&lt;/td>
+&lt;td>Vent Plug&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>壓力開關&lt;/td>
+&lt;td>Pressure Switch&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>壓力計&lt;/td>
+&lt;td>Pressure Gauge&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>壓力調節器&lt;/td>
+&lt;td>Pressure Regulator&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>控制器&lt;/td>
+&lt;td>PCM, PH&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>電磁閥&lt;/td>
+&lt;td>Solenoid&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>氣壓缸&lt;/td>
+&lt;td>Cylinder&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="高壓區儲存區">高壓區(儲存區)
+&lt;/h2>&lt;p>高壓區主要用來進氣與儲存氣體，需要的零件包括：&lt;/p>
+&lt;ul>
+&lt;li>壓縮機： 壓縮空氣，如果氣瓶儲存量夠大可以不安裝&lt;/li>
+&lt;li>壓力開關： 監測壓力是否達到120psi，控制壓縮機開關&lt;/li>
+&lt;li>壓力釋放閥： 用來釋放過高的壓力保證氣壓系統的安全&lt;/li>
+&lt;li>儲氣瓶： 儲存氣體&lt;/li>
+&lt;li>壓力計： &lt;strong>至少要安裝兩顆&lt;/strong>，一顆檢測儲存壓力，一顆檢測工作壓力&lt;/li>
+&lt;li>排氣塞： 用於手動釋放壓力，建議後端可以安裝消音器減少噪音。若壓力釋放閥有手動釋放功能可以替代。&lt;/li>
+&lt;li>壓力調節器： &lt;strong>至少要有一個調節器&lt;/strong>，用以把儲存壓力(120psi)降低為工作壓力(60psi)
+&lt;img src="https://penguin04172.github.io/p/frc-pneumatic/High_pressure.png"
+width="1012"
+height="605"
+srcset="https://penguin04172.github.io/p/frc-pneumatic/High_pressure_hu885ac7b8f0d5d76d4a95246e743c883b_68732_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-pneumatic/High_pressure_hu885ac7b8f0d5d76d4a95246e743c883b_68732_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="High Pressure"
+class="gallery-image"
+data-flex-grow="167"
+data-flex-basis="401px"
+>&lt;/li>
+&lt;/ul>
+&lt;h2 id="工作區">工作區
+&lt;/h2>&lt;p>工作區主要用來控制輸出元件，常見的零件包括：&lt;/p>
+&lt;ul>
+&lt;li>電磁閥： 控制氣體流向，決定輸出元件的輸出方向&lt;/li>
+&lt;li>輸出元件： 氣壓缸，可以將氣壓轉換為動力&lt;/li>
+&lt;li>歧管： 可以將電磁閥組合在一起方便安裝&lt;/li>
+&lt;li>調節器： 當有多種工作氣壓時可以透過調節器調節
+&lt;img src="https://penguin04172.github.io/p/frc-pneumatic/Working_pressure.png"
+width="973"
+height="567"
+srcset="https://penguin04172.github.io/p/frc-pneumatic/Working_pressure_hu65e518bb7d48d51b7ae05d9be85f4033_93802_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-pneumatic/Working_pressure_hu65e518bb7d48d51b7ae05d9be85f4033_93802_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Working Pressure"
+class="gallery-image"
+data-flex-grow="171"
+data-flex-basis="411px"
+>&lt;/li>
+&lt;/ul>
+&lt;h2 id="氣壓控制器">氣壓控制器
+&lt;/h2>&lt;ul>
+&lt;li>REV Robotics Pneumatic Hub
+&lt;img src="https://penguin04172.github.io/p/frc-pneumatic/PH.png"
+width="968"
+height="519"
+srcset="https://penguin04172.github.io/p/frc-pneumatic/PH_hu29ff9e119771596dec6d2e8e5848ad7c_181415_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-pneumatic/PH_hu29ff9e119771596dec6d2e8e5848ad7c_181415_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="PH"
+class="gallery-image"
+data-flex-grow="186"
+data-flex-basis="447px"
+>&lt;/li>
+&lt;li>CTRE Pneumatic Control Module
+&lt;img src="https://penguin04172.github.io/p/frc-pneumatic/PCM.png"
+width="826"
+height="407"
+srcset="https://penguin04172.github.io/p/frc-pneumatic/PCM_hu46f97fae38facde97767c3da7611dc89_312839_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-pneumatic/PCM_hu46f97fae38facde97767c3da7611dc89_312839_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="PCM"
+class="gallery-image"
+data-flex-grow="202"
+data-flex-basis="487px"
+>&lt;/li>
+&lt;/ul>
+&lt;h2 id="附錄">附錄
+&lt;/h2>&lt;p>其他安裝相關資料可以參考 &lt;a class="link" href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/technical-resources/frc_pneumatics_manual.pdf" target="_blank" rel="noopener"
+>FRC Pneumatics Manual&lt;/a>&lt;/p></description></item></channel></rss>

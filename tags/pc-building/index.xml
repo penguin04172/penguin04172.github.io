@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PC Building on 企鵝與他的鑿冰日誌</title><link>https://penguin04172.github.io/tags/pc-building/</link><description>Recent content in PC Building on 企鵝與他的鑿冰日誌</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Penguin04172</copyright><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://penguin04172.github.io/tags/pc-building/index.xml" rel="self" type="application/rss+xml"/><item><title>電腦組裝日記-心得</title><link>https://penguin04172.github.io/p/pc-building-ex/</link><pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/pc-building-ex/</guid><description>&lt;h2 id="簡介">簡介
+&lt;/h2>&lt;p>暑假到了，周邊也開始有很多朋友想要換新電腦，做個我自己的選法提供給大家參考。&lt;br>&lt;/p>
+&lt;h2 id="零件選擇">零件選擇
+&lt;/h2>&lt;h3 id="cpu">CPU
+&lt;/h3>&lt;p>主要就兩家 - Intel 跟 AMD&lt;br>
+關於怎麼選擇已經是千古難題了，下面簡單分析一下。&lt;br>
+AMD的部分分成AM4跟AM5，AMD有一項祖傳藝能 - 發熱，所以買之前要算一下需不需要塔散。&lt;br>
+但是相比起Intel，AMD在IO與設定自由度上通常給得更多。&lt;br>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>優點&lt;/th>
+&lt;th>缺點&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Intel&lt;/td>
+&lt;td>12th後大小核架構，核心數大量提升&lt;br>13-14th把頻率拉到極致了&lt;br>有便宜的主板(B660)&lt;br>D4跟D5可以任選&lt;/td>
+&lt;td>12-14th幾乎都是加小核&lt;br>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AMD AM4&lt;/td>
+&lt;td>便宜，便宜，還是真的很便宜&lt;br>只要B板以上就可以超頻&lt;br>D4 價格普遍較低&lt;br>還沒完全停產&lt;/td>
+&lt;td>發熱量相對大，需要更好的散熱器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AMD AM5&lt;/td>
+&lt;td>基本上都算性能怪獸&lt;br>加入了RDNA內顯&lt;br>&lt;/td>
+&lt;td>只能用D5記憶體&lt;br>貴&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="主機板">主機板
+&lt;/h3>&lt;p>會在意的部分大概就電源、記憶體插槽、M2硬碟槽、Wifi、功能性&lt;br>
+Intel 分 H、B、Z，但大部分情況應該會買B板，規格足夠價格也比較低&lt;br>
+AMD 分 A、B、X，大部分情況是買B板，因為X板更多是在更好的規格跟更多的IO，比較用不到&lt;br>
+&lt;br>
+板子的大小分 E-ATX、ATX、M-ATX、ITX，正常情況會買ATX或MATX&lt;br>
+個人比較常選MATX板，體積小一點，可以選更小的機殼但又不需要到ITX的特規品&lt;br>
+隨著性能與規格上升，主機板也是越來越貴，可以挑選功能足夠就好的板子省點錢&lt;br>
+廠牌就看個人喜好，常見的廠商有台灣御三家：華碩、技嘉、微星，其他廠商還有華擎、映泰之類的&lt;br>
+如果價位不滿意的話可以上淘寶看看，大陸很多廠商規格都給不錯價格也很低&lt;br>
+大陸常見廠商有：七彩虹、銘瑄、精粵、華南金牌之類的&lt;br>
+保固的部分都是基本3年保，好一點的廠商可以註冊延長保固。&lt;/p>
+&lt;h3 id="記憶體">記憶體
+&lt;/h3>&lt;p>規格上主要分世代、頻率、延遲，目前主流是DDR4、DDR5的U-DIMM，之後預計會推出CAMM2規格的記憶體&lt;br>
+延遲/頻率 = 反應速度，所以延遲越低頻率越高的記憶體效能就越好&lt;br>
+正常情況下應該是最一般的記憶體就夠用，馬甲條的優點是散熱會更好，主要看需求配置&lt;br>
+常見的廠商就比較多，個人比較喜歡金士頓、美光、威剛&lt;br>
+記憶體假貨在大陸很氾濫，要注意購買&lt;br>&lt;/p>
+&lt;h3 id="硬碟">硬碟
+&lt;/h3>&lt;p>家用主機插槽分SATA跟M2，主流主機板通常提供4 SATA+2 M2&lt;br>
+M2插槽需要檢查PCIE通道規格(決定速度)，SATA的速度大概就在550/500 MB上下&lt;br>
+由於製程演進，因此通常會看顆粒規格，通常耐久度與價格成正比，SLC&amp;gt;MLC&amp;gt;TLC&amp;gt;QLC&lt;br>
+還有分主控與DRAM、SLC快取等，個人通常隨便選，不會雷就好，用起來都差不多&lt;br>
+大部分都是5年保，也有例外，個人比較常選的廠牌是十銓、威剛、美光&lt;/p>
+&lt;h3 id="顯示卡">顯示卡
+&lt;/h3>&lt;p>GPU，由於AMD有部分人會遇到驅動問題，所以通常推薦Nvidia的卡&lt;br>
+目前二手市場的狀況是RTX30系以下的卡都預設為礦卡，當時實在太誇張&lt;br>
+網路上有很多效能比較的資料，買之前可以大概看一下&lt;/p>
+&lt;h3 id="wifi">Wifi
+&lt;/h3>&lt;p>最省事就是都選Intel的卡，不喜歡還有瑞昱Realtek的，有部分聯發科MediaTek的卡會遇到驅動問題。&lt;br>&lt;/p>
+&lt;h3 id="電源供應器">電源供應器
+&lt;/h3>&lt;p>主要分轉換率、瓦數跟模組化，瓦數需要注意有些廠牌是整顆電供的總輸出，大部分都是指12V的輸出。&lt;br>
+轉換率有個標準叫做 80 Plus，分成白金、金、銀、銅，越好就越貴&lt;br>
+模組化是指電工出線的形式，分為直出、半模、全模&lt;br>
+直出就是全部的線都直接拉出來，半模只拉CPU跟主板，剩下的部分有需要再連接模組線，全模就是全部都是有需要再接。&lt;/p>
+&lt;h3 id="其他">其他
+&lt;/h3>&lt;p>通常就是看顏色、廠牌跟喜不喜歡ARGB之類的&lt;/p></description></item><item><title>電腦組裝日記-3</title><link>https://penguin04172.github.io/p/pc-building-3/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/pc-building-3/</guid><description>&lt;h2 id="簡介">簡介
+&lt;/h2>&lt;p>最近組到了各式各樣奇葩零件的電腦，紀錄一下美好生活。&lt;br>
+主要組件是比較少見的Intel MODT平台，搭配RX6600的組合。&lt;/p>
+&lt;h2 id="規格">規格
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>零件&lt;/th>
+&lt;th>型號&lt;/th>
+&lt;th>大略價位&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>CPU&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.intel.com.tw/content/www/tw/zh/products/sku/226066/intel-core-i712650h-processor-24m-cache-up-to-4-70-ghz/specifications.html" target="_blank" rel="noopener"
+>Intel Core I7-12650H&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GPU&lt;/td>
+&lt;td>&lt;a class="link" href="https://tw.msi.com/Graphics-Card/Radeon-RX-6600-ARMOR-8G-V1/Specification" target="_blank" rel="noopener"
+>微星 MSI Armor RX6600&lt;/a>&lt;/td>
+&lt;td>3300&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MB&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.erying.cc/products-detail/id-150.html" target="_blank" rel="noopener"
+>爾英 Erying Polestar MODT&lt;/a>&lt;/td>
+&lt;td>6000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cooler&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.thermalright.com/tw/product/tl-as120-rgb/" target="_blank" rel="noopener"
+>利民 Thermalright Assassin Spirit 120 RGB&lt;/a>&lt;/td>
+&lt;td>500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RAM&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.teamgroupinc.com/tw/product-detail/memory/TEAMGROUP/elite-u-dimm-ddr4/elite-u-dimm-ddr4-TED416G3200C2201/" target="_blank" rel="noopener"
+>科賦 Klevv U-DIMM DDR4 2666 16GB*2&lt;/a>&lt;/td>
+&lt;td>1300&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SSD&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.solidigmtechnology.cn/products/client/plus-series/p41.html" target="_blank" rel="noopener"
+>Solidigm P41 Plus 512GB&lt;/a>&lt;/td>
+&lt;td>800&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SSD&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.xpg.com/tw/xpg/583" target="_blank" rel="noopener"
+>威剛 Adata XPG SX8200 Pro 1TB&lt;/a>&lt;/td>
+&lt;td>1500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Power&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.super-flower.com.tw/zh-TW/products/leadex-gold-850w" target="_blank" rel="noopener"
+>振華 SuperFlower Leadex Gold 850W&lt;/a>&lt;/td>
+&lt;td>2000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Case&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.superchannel.com.tw/products/detail/2110/CST360%28W%29" target="_blank" rel="noopener"
+>全漢 FSP CST360(W)&lt;/a>&lt;/td>
+&lt;td>1700&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Wifi&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.intel.com.tw/content/www/tw/zh/products/sku/189347/intel-wifi-6-ax200-gig/specifications.html" target="_blank" rel="noopener"
+>Intel AX200&lt;/a>&lt;/td>
+&lt;td>700&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>總計&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>17800&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="照片">照片
+&lt;/h2>&lt;h2 id="優缺點">優缺點
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>零件&lt;/th>
+&lt;th>優點&lt;/th>
+&lt;th>缺點&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I7-12650H&lt;/td>
+&lt;td>筆電用的U，好處是核心數相對多&lt;/td>
+&lt;td>魔改設計，無法更換，散熱可能會有問題&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RX6600&lt;/td>
+&lt;td>架構比較新的入門顯卡&lt;/td>
+&lt;td>小貴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>B660 MODT&lt;/td>
+&lt;td>板U一體，求方便用的&lt;/td>
+&lt;td>電源感覺頗爛，BIOS是公版設計(藍天白雲)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AS120&lt;/td>
+&lt;td>就塔散，比較便宜的那種&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>D4 2666 32G&lt;/td>
+&lt;td>就最簡單的便宜貨&lt;/td>
+&lt;td>兩條參數不一樣，特定情況下開不了機&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>P41 Plus 512G&lt;/td>
+&lt;td>目前拋盤常見的硬碟，CP值比較高&lt;/td>
+&lt;td>SSD算耗材吧&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SX8200 Pro 1T&lt;/td>
+&lt;td>從舊機上拆下來的，資料碟&lt;/td>
+&lt;td>有很多平替&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Leadex Gold 850W&lt;/td>
+&lt;td>金牌電源，白色的&lt;/td>
+&lt;td>體積相對大，大陸廠商&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CST360&lt;/td>
+&lt;td>同級距裡功能比較多的那種&lt;/td>
+&lt;td>重到要命&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AX200&lt;/td>
+&lt;td>現在不貴的Wifi 6無線網路卡&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="結論長相奇特性能普通">結論：長相奇特，性能普通
+&lt;/h2>&lt;p>這個組合有超頻的選項，但因為主板設計跟CPU積熱問題基本上不建議超頻。&lt;br>
+有趣的是主版上找不到南橋，說是做進去CPU了。&lt;br>
+另外要注意，第一槽PCIE只有x8的線，因為總通道數不足。&lt;br>
+顯卡是現在二手市場比較常出的RX6600，性能上大概在RTX2060那邊，玩個遊戲甚麼的還是沒問題的。&lt;br>
+機殼挺好用的，缺點就是真的很重，整機應該有個5公斤。&lt;/p></description></item><item><title>電腦組裝日記-2</title><link>https://penguin04172.github.io/p/pc-building-2/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/pc-building-2/</guid><description>&lt;h2 id="簡介">簡介
+&lt;/h2>&lt;p>紀錄一下美好生活，這台是工作用的主機，以穩定簡單為主。&lt;br>
+主要架構為I5-12400+B760m，搭配1050Ti&lt;br>
+簡單一句話就是能用不會卡就可以。&lt;/p>
+&lt;h2 id="規格">規格
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>零件&lt;/th>
+&lt;th>型號&lt;/th>
+&lt;th>大略價位&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>CPU&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.intel.com.tw/content/www/tw/zh/products/sku/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz/specifications.html" target="_blank" rel="noopener"
+>Intel Core I5-12400&lt;/a>&lt;/td>
+&lt;td>4000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GPU&lt;/td>
+&lt;td>EVGA GTX-1050Ti&lt;/td>
+&lt;td>1200&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MB&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.asus.com/tw/motherboards-components/motherboards/prime/prime-b760m-k-d4-csm/" target="_blank" rel="noopener"
+>華碩 ASUS Prime B760m-k D4 CSM&lt;/a>&lt;/td>
+&lt;td>2500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RAM&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr4-rgb-memory?speed=3200mt%2Fs&amp;amp;total%20%28kit%29%20capacity=32gb&amp;amp;kit=kit%20of%202&amp;amp;dram%20density=16gbit" target="_blank" rel="noopener"
+>金士頓 Kingston FURY Beast DDR4 RGB&lt;/a>&lt;/td>
+&lt;td>2400&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SSD&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.solidigmtechnology.cn/products/client/plus-series/p41.html" target="_blank" rel="noopener"
+>Solidigm P41 Plus 512GB&lt;/a>&lt;/td>
+&lt;td>800&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SSD&lt;/td>
+&lt;td>金士頓 Kingston A2000 1TB&lt;/td>
+&lt;td>1500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Power&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.thermalright.com/tw/product/tg-650/" target="_blank" rel="noopener"
+>利民 Thermalright TG-650&lt;/a>&lt;/td>
+&lt;td>1500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Case&lt;/td>
+&lt;td>&lt;a class="link" href="https://world.taobao.com/item/720957198918.htm" target="_blank" rel="noopener"
+>笨牛機箱 E15&lt;/a>&lt;/td>
+&lt;td>1000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Wifi&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.intel.com.tw/content/www/tw/zh/products/sku/204836/intel-wifi-6e-ax210-gig/specifications.html" target="_blank" rel="noopener"
+>Intel AX210&lt;/a>&lt;/td>
+&lt;td>800&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>總計&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>15700&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="照片">照片
+&lt;/h2>&lt;h2 id="優缺點">優缺點
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>零件&lt;/th>
+&lt;th>優點&lt;/th>
+&lt;th>缺點&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I5-12400&lt;/td>
+&lt;td>入門U，有內顯好用，也不熱&lt;/td>
+&lt;td>二手價還是很貴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GTX1050Ti&lt;/td>
+&lt;td>入門款，不玩遊戲應該夠用了&lt;/td>
+&lt;td>老卡，二手價不人性&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>B760m-k&lt;/td>
+&lt;td>比較便宜的B760m板，有ARGB&lt;/td>
+&lt;td>電源配置比較普通，不建議往上硬推&lt;br>記憶體只有兩槽&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fury Beast D4 3200 16G*2 RGB&lt;/td>
+&lt;td>搭RGB就是最讚的&lt;/td>
+&lt;td>夭壽貴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>P41 Plus 512G&lt;/td>
+&lt;td>目前拋盤常見的硬碟，CP值比較高&lt;/td>
+&lt;td>SSD算耗材吧&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>A2000 1T&lt;/td>
+&lt;td>從舊機上拆下來的，就資料碟，反正夠快&lt;/td>
+&lt;td>有很多平替，主控不知道在熱幾點的&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TG-650&lt;/td>
+&lt;td>金牌電源，大陸買便宜很多&lt;/td>
+&lt;td>送修要送回大陸&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>E15&lt;/td>
+&lt;td>15L體積，同級距較小的組合，功能性很夠&lt;/td>
+&lt;td>提把設計不良，大陸廠商&lt;br>鐵殼比較重，要輕可以考慮換鋁的&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AX210&lt;/td>
+&lt;td>常見的Wifi 6E無線網路卡&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="結論穩定性不錯性價比普通用的開心就好">結論：穩定性不錯，性價比普通，用的開心就好
+&lt;/h2>&lt;p>沒得超頻，基本夠用，CPU溫度不高用原廠扇就好。&lt;br>
+很少關機，穩定性挺好的，不會卡不會當。&lt;br>
+這個機殼組合的問題在於線很難整理，體積過小的情況下還要整理電源線、ARGB線材與風扇電源線&lt;br>
+建議可以用大一點點的機殼(18L/20L)。&lt;/p></description></item><item><title>電腦組裝日記-1</title><link>https://penguin04172.github.io/p/pc-building-1/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/pc-building-1/</guid><description>&lt;h2 id="簡介">簡介
+&lt;/h2>&lt;p>最近組到了各式各樣奇葩零件的電腦，紀錄一下美好生活。&lt;br>
+主要組件為常見的AM4平台，R5 3600搭配B550M的組合。&lt;br>
+加上 GTX 1060，日常使用以及基本遊戲體驗都沒問題。&lt;/p>
+&lt;h2 id="規格">規格
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>零件&lt;/th>
+&lt;th>型號&lt;/th>
+&lt;th>大略價位&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>CPU&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.amd.com/zh-hant/product/8456" target="_blank" rel="noopener"
+>AMD Ryzen 5 3600&lt;/a>&lt;/td>
+&lt;td>2500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GPU&lt;/td>
+&lt;td>華碩 ASUS Strix GTX-1060&lt;/td>
+&lt;td>1800&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MB&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.asus.com/tw/motherboards-components/motherboards/csm/prime-b550m-k-argb-csm/" target="_blank" rel="noopener"
+>華碩 ASUS B550m-k argb/csm&lt;/a>&lt;/td>
+&lt;td>2000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cooler&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.jonsbo.com/products/CR1400.html" target="_blank" rel="noopener"
+>喬思伯 Jonsbo CR1400 ARGB&lt;/a>&lt;/td>
+&lt;td>450&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RAM&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.teamgroupinc.com/tw/product-detail/memory/TEAMGROUP/elite-u-dimm-ddr4/elite-u-dimm-ddr4-TED416G3200C2201/" target="_blank" rel="noopener"
+>十銓 TEAM Elite DDR4 3200 16GB*1&lt;/a>&lt;/td>
+&lt;td>750&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SSD&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.solidigmtechnology.cn/products/client/plus-series/p41.html" target="_blank" rel="noopener"
+>Solidigm P41 Plus 512GB&lt;/a>&lt;/td>
+&lt;td>800&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SSD&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.crucial.tw/products/ssd/p1-ssd" target="_blank" rel="noopener"
+>美光 Micron Crucial P1 1TB&lt;/a>&lt;/td>
+&lt;td>1500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Power&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.super-flower.com.tw/zh-TW/products/leadex-gold-650w" target="_blank" rel="noopener"
+>振華 SuperFlower Leadex Gold 650W&lt;/a>&lt;/td>
+&lt;td>1000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Case&lt;/td>
+&lt;td>&lt;a class="link" href="https://world.taobao.com/item/720957198918.htm" target="_blank" rel="noopener"
+>笨牛機箱 E15&lt;/a>&lt;/td>
+&lt;td>1000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Wifi&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.intel.com.tw/content/www/tw/zh/products/sku/189347/intel-wifi-6-ax200-gig/specifications.html" target="_blank" rel="noopener"
+>Intel AX200&lt;/a>&lt;/td>
+&lt;td>700&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>總計&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>12500&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="照片">照片
+&lt;/h2>&lt;p>&lt;img src="https://penguin04172.github.io/p/pc-building-1/pic_1.jpg"
+width="1477"
+height="1109"
+srcset="https://penguin04172.github.io/p/pc-building-1/pic_1_hu78dad58c216816f7e73574e3ea6e8544_159503_480x0_resize_q75_box.jpg 480w, https://penguin04172.github.io/p/pc-building-1/pic_1_hu78dad58c216816f7e73574e3ea6e8544_159503_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="pic 1"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="319px"
+> &lt;img src="https://penguin04172.github.io/p/pc-building-1/pic_2.jpg"
+width="1477"
+height="1109"
+srcset="https://penguin04172.github.io/p/pc-building-1/pic_2_hu9fdaf97851887e2ff9307be6a72c2363_161182_480x0_resize_q75_box.jpg 480w, https://penguin04172.github.io/p/pc-building-1/pic_2_hu9fdaf97851887e2ff9307be6a72c2363_161182_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="pic 2"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="319px"
+> &lt;img src="https://penguin04172.github.io/p/pc-building-1/pic_3.jpg"
+width="1109"
+height="1477"
+srcset="https://penguin04172.github.io/p/pc-building-1/pic_3_hud54db8f5743bad8233c7cbf6af7e030b_175404_480x0_resize_q75_box.jpg 480w, https://penguin04172.github.io/p/pc-building-1/pic_3_hud54db8f5743bad8233c7cbf6af7e030b_175404_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="pic 3"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;h2 id="優缺點">優缺點
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>零件&lt;/th>
+&lt;th>優點&lt;/th>
+&lt;th>缺點&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Ryzen5 3600&lt;/td>
+&lt;td>入門U，二手便宜好用&lt;/td>
+&lt;td>比較舊一點的U加AMD祖傳積熱問題，建議配塔散&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GTX1060&lt;/td>
+&lt;td>入門款，基本上都跑得動&lt;/td>
+&lt;td>老了，二手價不人性&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>B550m-k argb/csm&lt;/td>
+&lt;td>目前感覺CP值最高的AM4主板，配ARGB&lt;/td>
+&lt;td>電源配置比較普通，不建議往上硬推&lt;br>記憶體只有兩槽&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CR1400&lt;/td>
+&lt;td>小機殼+ARGB好用，新品也不貴&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Elite D4 32 16G&lt;/td>
+&lt;td>就最簡單的便宜貨&lt;/td>
+&lt;td>都這麼普通了好像也不能苛求&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>P41 Plus 512G&lt;/td>
+&lt;td>目前拋盤常見的硬碟，CP值比較高&lt;/td>
+&lt;td>SSD算耗材吧&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>P1 1T&lt;/td>
+&lt;td>從舊機上拆下來的，就資料碟，反正夠快&lt;/td>
+&lt;td>有很多平替&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Leadex Gold 650W&lt;/td>
+&lt;td>金牌電源，白色的&lt;/td>
+&lt;td>體積相對大，大陸廠商&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>E15&lt;/td>
+&lt;td>15L體積，同級距較小的組合，功能性很夠&lt;/td>
+&lt;td>提把設計不良，大陸廠商&lt;br>鐵殼比較重，要輕可以考慮換鋁的&lt;br>這台備品少給我，有找其他廠商的&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AX200&lt;/td>
+&lt;td>現在不貴的Wifi 6無線網路卡&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="結論性能足夠日常用挺快樂">結論：性能足夠，日常用挺快樂
+&lt;/h2>&lt;p>AMD這個組合性能不足時可以再超頻，但因為主板電源設計跟CPU積熱問題不建議過於激進。&lt;br>
+這個機殼組合的問題在於線很難整理，體積過小的情況下還要整理電源線、ARGB線材與風扇電源線&lt;br>
+建議可以用大一點點的機殼(18L/20L)。&lt;/p></description></item></channel></rss>

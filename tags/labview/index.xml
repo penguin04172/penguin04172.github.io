@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Labview on 企鵝與他的鑿冰日誌</title><link>https://penguin04172.github.io/tags/labview/</link><description>Recent content in Labview on 企鵝與他的鑿冰日誌</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Penguin04172</copyright><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://penguin04172.github.io/tags/labview/index.xml" rel="self" type="application/rss+xml"/><item><title>Labview for FRC 安裝與更新</title><link>https://penguin04172.github.io/p/frc-labview-install/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/frc-labview-install/</guid><description>&lt;h2 id="解除安裝舊版本">解除安裝舊版本
+&lt;/h2>&lt;p>首先要打開 NI Package Manager，選到 Installed 標籤，將套件全選並按下 Remove。&lt;/p>
+&lt;h2 id="下載新的labview">下載新的Labview
+&lt;/h2>&lt;p>前往 &lt;a class="link" href="https://www.ni.com/en-us/support/downloads/software-products/download.labview-software-for-frc.html" target="_blank" rel="noopener"
+>Labview for FRC&lt;/a> 選擇版本並下載安裝檔。&lt;br>
+依照網路狀況選擇在線或離線安裝。&lt;br>
+&lt;img src="https://penguin04172.github.io/p/frc-labview-install/Labview_download_page.png"
+width="1471"
+height="599"
+srcset="https://penguin04172.github.io/p/frc-labview-install/Labview_download_page_hu2a4fef96533b4be606df77327b7ade03_42323_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-labview-install/Labview_download_page_hu2a4fef96533b4be606df77327b7ade03_42323_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Labview download"
+class="gallery-image"
+data-flex-grow="245"
+data-flex-basis="589px"
+>&lt;/p>
+&lt;h2 id="下載frc-game-tool">下載FRC Game Tool
+&lt;/h2>&lt;p>前往 &lt;a class="link" href="https://www.ni.com/zh-tw/support/downloads/drivers/download.frc-game-tools.html" target="_blank" rel="noopener"
+>FRC Game Tools&lt;/a> 選擇賽季版本並下載安裝檔。&lt;br>
+依照網路狀況選擇在線或離線安裝。&lt;br>
+&lt;img src="https://penguin04172.github.io/p/frc-labview-install/Gametool_download_page.png"
+width="1447"
+height="589"
+srcset="https://penguin04172.github.io/p/frc-labview-install/Gametool_download_page_hua3e6c9c9fedd0a28e49663ac1c8ea69d_39292_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-labview-install/Gametool_download_page_hua3e6c9c9fedd0a28e49663ac1c8ea69d_39292_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Gametool download"
+class="gallery-image"
+data-flex-grow="245"
+data-flex-basis="589px"
+>&lt;/p>
+&lt;h2 id="安裝labview">安裝Labview
+&lt;/h2>&lt;p>首先安裝Labview本體，接著再安裝 GameTool。&lt;br>
+一路下一步跟我同意，漫長的等待後就可以輸入序號了，若沒有序號也可以先跳過使用試用版，安裝完成後要重新開機。&lt;/p>
+&lt;h2 id="更新labview">更新Labview
+&lt;/h2>&lt;p>打開 NI Package Manager，選擇 Updates 標籤確認可用更新，全選可更新項並按下 Update。&lt;br>
+若過程中有更新到 NI Package Manager，更新完後要重複上面的步驟一次。&lt;br>
+&lt;img src="https://penguin04172.github.io/p/frc-labview-install/Labview_update.png"
+width="960"
+height="184"
+srcset="https://penguin04172.github.io/p/frc-labview-install/Labview_update_hub66dc7e56b8eecf54bc8e228e34f9755_53507_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-labview-install/Labview_update_hub66dc7e56b8eecf54bc8e228e34f9755_53507_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Labview update"
+class="gallery-image"
+data-flex-grow="521"
+data-flex-basis="1252px"
+>&lt;/p></description></item><item><title>LabVIEW 簡介</title><link>https://penguin04172.github.io/p/labview-basic/</link><pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/labview-basic/</guid><description>&lt;h2 id="簡介">簡介
+&lt;/h2>&lt;p>LabVIEW 全名為 &lt;strong>Lab&lt;/strong>oratory &lt;strong>V&lt;/strong>irtual &lt;strong>I&lt;/strong>nstrumentation &lt;strong>E&lt;/strong>ngineering &lt;strong>W&lt;/strong>orkbench, 實驗室虛擬儀器工程平台&lt;br>
+由NI (National Instrument, 國家儀器)所開發的程式語言&lt;br>
+早期是為了方便儀器自動控制所開發，擁有圖形化介面，容易上手&lt;br>
+透過資料流與方塊化模式進行程式撰寫&lt;br>
+LabVIEW的程式碼附檔名為VI，代表虛擬儀器(Virtual Instrument)&lt;/p>
+&lt;h2 id="labview的優缺點">Labview的優缺點
+&lt;/h2>&lt;h3 id="優點">優點
+&lt;/h3>&lt;ul>
+&lt;li>不用像一般寫程式時要熟悉語法，有提供圖形化函式庫方便查找&lt;/li>
+&lt;li>擁有大量的函式庫，包括數學、邏輯、圖形、資料的相關處理&lt;/li>
+&lt;li>編譯簡單，會自動帶入編譯器所需要的資料，不需要處理編譯上的問題&lt;/li>
+&lt;li>平行編程，由於透過資料流作為主結構，因此LabVIEW帶有排程演算法能夠自動將程式變為多執行續，不用煩惱多執行續的問題&lt;/li>
+&lt;/ul>
+&lt;h3 id="缺點">缺點
+&lt;/h3>&lt;ul>
+&lt;li>執行效率低落，不管程式大小都必須在RT環境中執行，導致整體效率被拖慢&lt;/li>
+&lt;li>圖形化，導致程式在複雜的時候沒辦法快速釐清順序&lt;/li>
+&lt;li>沒有變焦功能，方塊大小會受到解析度影響&lt;/li>
+&lt;li>專有軟體，社群較小且程式碼不受其他機構管控，語法上會有不同&lt;/li>
+&lt;/ul>
+&lt;h2 id="labview的特性">LabVIEW的特性
+&lt;/h2>&lt;h3 id="資料流">資料流
+&lt;/h3>&lt;p>透過資料的傳遞決定程式的執行順序，每個方塊都必須等待輸入準備完畢後才會執行並將結果輸出
+&lt;img src="https://penguin04172.github.io/p/labview-basic/Data_flow.png"
+width="865"
+height="318"
+srcset="https://penguin04172.github.io/p/labview-basic/Data_flow_huf65c0d0bacf677f20180a06481d767df_61052_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/labview-basic/Data_flow_huf65c0d0bacf677f20180a06481d767df_61052_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Data Flow"
+class="gallery-image"
+data-flex-grow="272"
+data-flex-basis="652px"
+>&lt;/p>
+&lt;h3 id="圖形化編程">圖形化編程
+&lt;/h3>&lt;ul>
+&lt;li>與Scratch(Blockly)有點類似，但原理上不一樣，前者是先將文字型語言的語法轉換為方塊再進行操作，因此還是需要先將方塊轉回程式碼再進行編譯&lt;/li>
+&lt;li>LabVIEW則是透過資料流操作，因此在結構上不會像Scratch有明確的順序
+&lt;img src="https://penguin04172.github.io/p/labview-basic/Graphics.png"
+width="748"
+height="623"
+srcset="https://penguin04172.github.io/p/labview-basic/Graphics_hu702363592ab9177e1978fe8ec18cfaba_138194_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/labview-basic/Graphics_hu702363592ab9177e1978fe8ec18cfaba_138194_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Graphics"
+class="gallery-image"
+data-flex-grow="120"
+data-flex-basis="288px"
+>&lt;/li>
+&lt;/ul>
+&lt;h3 id="圖形化介面">圖形化介面
+&lt;/h3>&lt;ul>
+&lt;li>每個LabVIEW程式碼會被稱為VI，包括前面板、程式、圖示&lt;/li>
+&lt;li>快捷鍵：ctrl+t將畫面分割為前面板與程式區各一半、ctrl+u自動整線、右鍵呼叫函式庫&lt;/li>
+&lt;/ul>
+&lt;h2 id="附錄">附錄
+&lt;/h2>&lt;h3 id="參考資料">參考資料
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/LabVIEW" target="_blank" rel="noopener"
+>Wikipedia - LabVIEW&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

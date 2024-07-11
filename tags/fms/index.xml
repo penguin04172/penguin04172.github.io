@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FMS on 企鵝與他的鑿冰日誌</title><link>https://penguin04172.github.io/tags/fms/</link><description>Recent content in FMS on 企鵝與他的鑿冰日誌</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Penguin04172</copyright><lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://penguin04172.github.io/tags/fms/index.xml" rel="self" type="application/rss+xml"/><item><title>Field Manage System (FMS) of FRC</title><link>https://penguin04172.github.io/p/frc-fms-introduction/</link><pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate><guid>https://penguin04172.github.io/p/frc-fms-introduction/</guid><description>&lt;h2 id="fms">FMS
+&lt;/h2>&lt;p>FMS 全名 Field Manage System(場地管理系統)&lt;br>
+FRC 競賽中，場地上的一切都是透過FMS進行操作，包括網路、計分、裁判、燈號等&lt;br>
+FMS 提供實時計分、機器人管理、資料管理與畫面呈現等功能&lt;br>
+為了保證穩定性與公平性，網路之間會透過VLan進行切分，避免互相干擾&lt;br>&lt;/p>
+&lt;h2 id="系統組成">系統組成
+&lt;/h2>&lt;h3 id="smart-router">Smart Router
+&lt;/h3>&lt;p>提供FMS對外網路，通常由場館提供&lt;/p>
+&lt;h3 id="field-router">Field Router
+&lt;/h3>&lt;p>負責場地內的網路，連結SCC、AP、FMS Server、PLC、燈條等設備&lt;/p>
+&lt;h3 id="fms-server">FMS Server
+&lt;/h3>&lt;p>一台伺服器，負責執行FMS軟體，處理競賽流程與資料&lt;br>
+FMS Server 並不直接與Robot連線，而是透過DS進行中繼，若DS與FMS斷線，Robot也會因為看門狗(watchdog)停下&lt;br>
+FMS Server 也會收集來自DS與Robot的資訊&lt;br>&lt;/p>
+&lt;h3 id="programmable-logic-controllerplc">Programmable Logic Controller(PLC)
+&lt;/h3>&lt;p>PLC被用於場地上的設備操作，包括馬達或自動計分器，透過網路與FMS Server連線&lt;/p>
+&lt;h3 id="station-control-cabinetscc">Station Control Cabinet(SCC)
+&lt;/h3>&lt;p>負責操作站上的設備與FMS Server連線，包括燈條、指示燈板、緊急停機按鈕、隊伍電腦等&lt;br>&lt;/p>
+&lt;h3 id="field-wireless-access-pointap">Field Wireless Access Point(AP)
+&lt;/h3>&lt;p>負責場地上的無線網路，robot使用5GHz(-2024)/6GHz(2025-)，其他設備使用2.4GHz&lt;br>
+設備為 Linksys WRT1900AC(-2024)/VIVID-Hosting VH-109(2025-)&lt;br>
+加密方法為 WPA2/AES，每場競賽都會重新釋放隊伍專屬網路與密碼&lt;/p>
+&lt;h3 id="referee-panels">Referee Panels
+&lt;/h3>&lt;p>裁判記分板，可以使用平板替代&lt;/p>
+&lt;h3 id="robots">Robots
+&lt;/h3>&lt;p>機器人上包含 網路機、roboRIO，網路機在競賽中應該要被設定為橋接模式並連結指定的SSID與密碼&lt;/p>
+&lt;h2 id="field-network">Field Network
+&lt;/h2>&lt;h3 id="場地網路結構圖">場地網路結構圖
+&lt;/h3>&lt;p>&lt;img src="https://penguin04172.github.io/p/frc-fms-introduction/fms-whitepaper-0.png"
+width="637"
+height="776"
+srcset="https://penguin04172.github.io/p/frc-fms-introduction/fms-whitepaper-0_hu21aace8d3f0d54e585218d8f1251628c_84299_480x0_resize_box_3.png 480w, https://penguin04172.github.io/p/frc-fms-introduction/fms-whitepaper-0_hu21aace8d3f0d54e585218d8f1251628c_84299_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Field Network"
+class="gallery-image"
+data-flex-grow="82"
+data-flex-basis="197px"
+>&lt;/p>
+&lt;h3 id="vlan">VLan
+&lt;/h3>&lt;p>Field Router會切分Vlan將隊伍與場地的網路分離&lt;/p>
+&lt;ul>
+&lt;li>Blue: 10, 20, 30&lt;/li>
+&lt;li>Red: 40, 50, 60&lt;/li>
+&lt;li>Field: 100
+Robot 所連結的Wifi 也會做出相同的切分，避免機器互相干擾&lt;/li>
+&lt;/ul>
+&lt;h3 id="addressing">Addressing
+&lt;/h3>&lt;p>總共有7個DHCP Server，包括6個隊伍網路與1個場地網路&lt;/p>
+&lt;h3 id="network-bandwidth">Network Bandwidth
+&lt;/h3>&lt;p>Robot radio將會被限制4Mb/s的頻寬&lt;br>
+網路優先順序為DS, Network Tables, others&lt;/p>
+&lt;h2 id="總結">總結
+&lt;/h2>&lt;p>以上部份我們可以進行仿照以及簡化，減少設備需求，並達到所需要的功能&lt;br>
+下一篇將會介紹第三方的FMS&lt;/p>
+&lt;h2 id="附錄">附錄
+&lt;/h2>&lt;h3 id="參考資料">參考資料
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://fms-manual.readthedocs.io/en/latest/fms-whitepaper/fms-whitepaper.html" target="_blank" rel="noopener"
+>FMS Whitepaper&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://frcture.readthedocs.io/en/latest/" target="_blank" rel="noopener"
+>FRCture - Reverse Engineering FRC&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
